@@ -1,0 +1,103 @@
+body{
+    min-width: 100%;
+}
+    h5{
+    margin: 0% 6%;
+}
+
+.layout{
+    margin: 4%;
+    height: 100px;
+    width: 100%;
+    display:inline-block;
+    background-color: #a19b9bec;
+} 
+.row img{
+    height: 100%;
+    width: 100%;
+    margin:0% -2%;
+}
+.col-4 img{
+    margin-left: 0%;
+    height: 18%;
+    width: 60px;
+}
+.col-4 h4{
+    margin-left: 0%;
+    color: #0d0d51;
+}
+.col-4 h3{
+    color: #0d0d51;
+}
+.agency{
+    margin-left: 10%;
+    height: 300px;
+    width: 100%;
+}
+p{
+    color: #0d0d51;
+}
+span{
+    margin-left: 8%;
+    color: #0d0d51;
+}
+.tolu{
+    color: red;
+    text-align: center;
+}
+.right{
+    color:#0d0d51;
+    text-align: right;
+}
+.temi{
+    text-align:left;
+}
+.col-6 h4{
+    margin-left: 5%;
+    color: #0d0d51;
+}
+.container{
+    padding-top:10%;
+}
+.col-6 h2{
+    color: #0d0d51;
+}
+.head{
+    background-color: white;
+    color: red;
+}
+.border{
+    border-radius: 0.6cm;
+    margin-left: -2%;
+    background-color: red;
+    color: white;
+    padding: 2% 5%;
+}
+.bord{
+    border-radius: 0.6cm;
+    background-color: red;
+    color: white;
+    padding: 1% 5%;
+    margin: 40%;
+}
+small{
+    color: red;
+    font-family: 'Bold', sans-serif;
+}
+.col-6 img{
+    margin-left: -8%;
+    height: 90%;
+}
+.normal{
+    color:gray;
+}
+.card-block h6{
+    color: #0d0d51;
+}
+.shift{
+    color:red;
+    padding-left: 80%;
+}
+.card{
+    padding: 8%;
+}
