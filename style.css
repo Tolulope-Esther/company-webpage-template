@@ -52,6 +52,12 @@ span {
 .temi {
   text-align: left;
 }
+.temi span {
+  cursor: pointer;
+}
+.temi span:hover{
+    color: rgba(245, 47, 47, 0.823);
+}
 .col-6 h4 {
   margin-left: 5%;
   color: #0d0d51;
