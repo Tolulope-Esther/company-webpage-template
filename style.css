@@ -32,6 +32,7 @@ h5 {
 .agency {
   height: 300px;
   width: 100%;
+  margin-bottom:0;
 }
 p {
   color: #0d0d51;
@@ -144,20 +145,18 @@ small {
   font-size: 0.3cm;
   margin-left: 10%;
 }
-.temi img{
-  width: 8%;
-}
 .agency{
   font-size:0.8cm;
-  height: 75% ;
+  height: 75%;
+  margin-bottom: -15%;
 }
 .size{
-  margin-top: -35%;
-  font-size: 1em;
+  margin-top: 5%;
+  font-size: 1.4em;
 }
-get{
-  font-size: 0.3em;
-  margin-top: -10%;
+.get{
+  font-size: 0.4em;
+  margin-top: 0%;
 }
 .col-4 h3{
   font-size: 0.65cm;
@@ -183,31 +182,37 @@ get{
   font-size: 0.9em;
   margin-left: -17%;
 }
+.col-6 img{
+  height: 200px;
+  width: 70%;
 }
-
-
-/* @media screen and (max-width: 1000px){
-.size{
-  margin-top: -20%;
+.col-6 small{
   font-size: 0.6em;
 }
-.temi{
-  font-size: 0.2cm;
-} */
+.col-6 h2{
+  font-size: 1em;
+  margin-top:0em;
+}
+.col-6 p{
+  font-size: 0.7em;
+  margin-top: 0em;
+}
+}
 
 @media screen and (max-width: 815px){
   .temi{
     font-size: 0.2cm;
   }
-  .temi img{
+  /* .temi img{
     width: 6%;
-  }
+  } */
 .agency{
   font-size: 0.6cm;
   height: 60%;
+  margin-bottom: 0%;
 }
 .size{
-  margin-top: -22%;
+  margin-top:-20%;
   font-size: 0.7em;
 }
 .get{
@@ -220,7 +225,7 @@ get{
   margin-right: -70%;
   margin-top: 45%;
 }
-.col-4 img{
+ .col-4 img{
   height: 14%;
   width: 20%;
   margin-top:20% ;
@@ -238,19 +243,33 @@ get{
   font-size: 0.8em;
   margin-left: -17%;
 }
+.col-6 img{
+  height: 130px;
+  width: 150%;
 }
+.col-6 h2{
+  font-size: 0.65em;
+  margin-top: -1.9em;
+}
+.col-6 p{
+  font-size: 0.4em;
+  margin-top: -2.4em;
 }
 
 @media screen and (max-width: 600px){
   .temi{
     font-size: 0.2cm;
   }
-  .temi img{
-    width: 6%;
+  /* .temi img{
+    width: 6%; */
+  }
+  .agency{
+    margin-bottom: -22%;
   }
   .size{
     font-size: 0.6em;
-    margin-top: -20%;
+    margin-top: 0%;
+    margin-right: -15%;
   }
   .get{
     font-size: 0.7em;
@@ -280,28 +299,40 @@ get{
     font-size: 0.7em;
     margin-left: -17%;
   }
-}
+  .col-6 img{
+    height: 170px;
+    width: 110%;
+  }
+  .col-6 small{
+    font-size: 0.4em;
+  }
+  .col-6 h2{
+    font-size: 0.9em;
+    margin-top:-10%;
+  }
+  .col-6 p{
+    font-size: 0.6em;
+    margin-top:-8%;
+  }
 }
 
-@media screen and (max-width: 540px){
+@media screen and (max-width: 550px){
   .temi{
     font-size: 0.13cm;
     
   }
-  .temi img{
-    width: 6%;
-  }
     .agency{
       font-size: 0.4cm;
       height: 70%;
+      margin-bottom: -30%;
     }
     .size{
-      font-size: 0.5em;
-      margin-top: -33%;
+      font-size: 0.7em;
+      margin-top: 0%;
     }  
     .get{
-      font-size: 0.5em;
-      margin-top: -13%;
+      font-size: 0.6em;
+      margin-top: -11%;
     }
     .col-4 h3{
       font-size: 0.35cm;
@@ -327,6 +358,21 @@ get{
       font-size: 0.6em;
       margin-left: -17%;
     }
+    .col-6 img{
+      height: 100%;
+      width: 100%;
+    }
+    .small{
+      font-size: 0.3em;
+    }
+    .col-6 h2{
+      font-size: 0.7em;
+      margin-top: -10%;
+    }
+    .col-6 p{
+      font-size: 0.4em;
+      margin-top: -10%;
+    }
 }
 @media screen and (max-width: 370px){
   .temi{
@@ -339,10 +385,10 @@ get{
   .agency{
     font-size: 0.25cm;
     height:65%;
+    margin-bottom: -43%;
   }
   .size{
     font-size: 0.4em;
-    margin-top: -32%;
     margin-right: -25%;
   }
   .get{
@@ -356,8 +402,8 @@ get{
   margin-top: 100%;
 }
 .col-4 img{
-  height: 6%;
-  width: 10%;
+  height: 7%;
+  width: 12%;
   margin-top:33% ;
 }
 .col-4 h4{
@@ -373,5 +419,19 @@ get{
   font-size: 0.5em;
   margin-left: -17%;
 }
-
+.col-6 img{
+  height: 130px;
+  width: 140px;
+}
+.col-6 small{
+  font-size: 0.25em;
+}
+.col-6 h2{
+  font-size: 0.65em;
+  margin-top: -1.9em;
+}
+.col-6 p{
+  font-size: 0.4em;
+  margin-top: -2.8em;
+}
 }
