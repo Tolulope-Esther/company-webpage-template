@@ -32,7 +32,7 @@ h5 {
 .agency {
   height: 300px;
   width: 100%;
-  margin-bottom:0;
+  margin-bottom:-50%;
 }
 p {
   color: #0d0d51;
@@ -134,17 +134,14 @@ small {
 }
 
 .size{
-  margin-top: -45%;
+  margin-top: 5%;
   color: #464444;
 }
+
 /*Responsive styles*/
 
 @media screen and (max-width: 1200px){
 
-.temi{
-  font-size: 0.3cm;
-  margin-left: 10%;
-}
 .agency{
   font-size:0.8cm;
   height: 75%;
@@ -155,8 +152,8 @@ small {
   font-size: 1.4em;
 }
 .get{
-  font-size: 0.4em;
-  margin-top: 0%;
+  font-size: 0.9em;
+  margin-top: -3%;
 }
 .col-4 h3{
   font-size: 0.65cm;
@@ -174,7 +171,7 @@ small {
   margin-top:-5%;
 }
 .col-4 p{
-  font-size: 0.6em;
+  font-size: 0.65em;
   margin-top: -7%;
   margin-right: 30%;
 }
@@ -187,7 +184,7 @@ small {
   width: 70%;
 }
 .col-6 small{
-  font-size: 0.6em;
+  font-size: 0.65em;
 }
 .col-6 h2{
   font-size: 1em;
@@ -197,15 +194,53 @@ small {
   font-size: 0.7em;
   margin-top: 0em;
 }
+.col-6 h4{
+  font-size: 0.55cm;
+  margin-left: -6%;
+}
+.layout{
+  height: 60px;
+  width: 100%;
+  margin-left: -7%;
+}
+.tolu{
+    font-size: 0.75em;
+}
+.blog{
+  font-size: 0.5em;
+  margin-left: 0;
+}
+.news{
+  font-size: 0.7cm;
+  margin-left: -30%;
+}
+.card{
+  margin-left: 6%;
+  margin-right: 1%;
+}
+.container-{
+  margin-right: 0%;
+}
+.normal{
+  font-size: 0.5em;
+}
+.col-4 h6{
+  font-size: 0.9em;
+  margin-top: 4%;
+  margin-bottom: -4%;
+}
+.red{
+  font-size: 0.55em;
+  margin-top: 2%;
+}
 }
 
-@media screen and (max-width: 815px){
+
+/* @media screen and (max-width: 815px){
   .temi{
     font-size: 0.2cm;
   }
-  /* .temi img{
-    width: 6%;
-  } */
+
 .agency{
   font-size: 0.6cm;
   height: 60%;
@@ -255,14 +290,50 @@ small {
   font-size: 0.4em;
   margin-top: -2.4em;
 }
+.col-6 h4{
+  font-size: 0.4cm;
+  margin-left: -6%;
+}
+.layout{
+  height: 50px;
+  width: 110%;
+  margin-left: -8%;
+}
+.tolu{
+    font-size: 0.75em;
+}
+.blog{
+  font-size: 0.8em;
+}
+.news{
+  font-size: 0.6cm;
+}
+.card{
+  margin-left: -5%;
+  margin-right: 3%;
+}
+.container-{
+  margin-right: 0%;
+}
+.normal{
+  font-size: 0.5em;
+}
+.col-4 h6{
+  font-size: 0.7em;
+  margin-top: 5%;
+  margin-bottom: -5%;
+}
+.red{
+  font-size: 0.27em;
+}
+}
+
 
 @media screen and (max-width: 600px){
   .temi{
     font-size: 0.2cm;
   }
-  /* .temi img{
-    width: 6%; */
-  }
+
   .agency{
     margin-bottom: -22%;
   }
@@ -273,7 +344,7 @@ small {
   }
   .get{
     font-size: 0.7em;
-    margin-top: -10%;
+    margin-top: -7%;
   }
   .col-4 h3{
     font-size: 0.5cm;
@@ -291,8 +362,8 @@ small {
     margin-top:-8%;
   }
   .col-4 p{
-    font-size: 0.6e4;
-    margin-top: -12%;
+    font-size: 0.6em;
+    margin-top: -10%;
     margin-right: 5%;
   }
   .bordr{
@@ -300,7 +371,7 @@ small {
     margin-left: -17%;
   }
   .col-6 img{
-    height: 170px;
+    height: 160px;
     width: 110%;
   }
   .col-6 small{
@@ -314,65 +385,136 @@ small {
     font-size: 0.6em;
     margin-top:-8%;
   }
+  .col-6 h4{
+    font-size: 0.45cm;
+    margin-left: -8%;
+  }
+  .layout{
+    height: 60px;
+    width: 112%;
+    margin-left: -10%;
+  }
+  .tolu{
+      font-size: 0.7em;
+  }
+  .blog{
+    font-size: 0.5em;
+    margin-left: 0%;
+  }
+  .news{
+    font-size: 0.4cm;
+    margin-left: 0%
+  }
+  .card{
+    margin-left: 0%;
+    margin-right: -13%;
+  }
+  .container-{
+    margin-right: 0%;
+  }
+  .normal{
+    font-size: 0.35em;
+  }
+  .col-4 h6{
+    font-size: 0.6em;
+    margin-top: 5%;
+    margin-bottom: -6%;
+  }
+  .red{
+    font-size: 0.35em;
+    margin-left: -1%;
 }
 
 @media screen and (max-width: 550px){
   .temi{
-    font-size: 0.13cm;
-    
+  font-size: 0.13cm;
   }
-    .agency{
-      font-size: 0.4cm;
-      height: 70%;
-      margin-bottom: -30%;
-    }
-    .size{
-      font-size: 0.7em;
-      margin-top: 0%;
-    }  
-    .get{
-      font-size: 0.6em;
-      margin-top: -11%;
-    }
-    .col-4 h3{
-      font-size: 0.35cm;
-      margin-left: -20%;
-      margin-right: -70%;
-      margin-top: 60%;
-    }
-    .col-4 img{
-      height: 11%;
-      width: 15%;
-      margin-top:20% ;
-    }
-    .col-4 h4{
-      font-size:0.3cm;
-      margin-top:-12%;
-    }
-    .col-4 p{
-      font-size: 0.5em;
-      margin-top: -18%;
-      margin-right: -5%;
-    }
-    .bordr{
-      font-size: 0.6em;
-      margin-left: -17%;
-    }
-    .col-6 img{
-      height: 100%;
-      width: 100%;
-    }
-    .small{
-      font-size: 0.3em;
-    }
-    .col-6 h2{
-      font-size: 0.7em;
-      margin-top: -10%;
-    }
-    .col-6 p{
-      font-size: 0.4em;
-      margin-top: -10%;
-    }
+  .agency{
+    font-size: 0.4cm;
+    height: 70%;
+    margin-bottom: -28%;
+  }
+  .size{
+    font-size: 0.7em;
+    margin-top: 0%;
+  }  
+  .get{
+    font-size: 0.6em;
+    margin-top: -11%;
+  }
+  .col-4 h3{
+    font-size: 0.35cm;
+    margin-left: -20%;
+    margin-right: -70%;
+    margin-top: 60%;
+  }
+  .col-4 img{
+    height: 11%;
+    width: 15%;
+    margin-top:20% ;
+  }
+  .col-4 h4{
+    font-size:0.3cm;
+    margin-top:-12%;
+  }
+  .col-4 p{
+    font-size: 0.5em;
+    margin-top: -18%;
+    margin-right: -5%;
+  }
+  .bordr{
+    font-size: 0.6em;
+    margin-left: -17%;
+  }
+  .col-6 img{
+    height: 100%;
+    width: 100%;
+  }
+  .col-6 h2{
+    font-size: 0.7em;
+    margin-top: -10%;
+  }
+  .col-6 p{
+    font-size: 0.4em;
+    margin-top: -10%;
+  }
+  .col-6 h4{
+    font-size: 0.35cm;
+    margin-left: -8%;
+  }
+  .layout{
+    height: 60px;
+    width: 120%;
+    margin-left: -10%;
+  }
+  .tolu{
+      font-size: 0.65em;
+  }
+  .blog{
+    font-size: 0.55em;
+  }
+  .news{
+    font-size: 0.45cm;
+  }
+  .card{
+    margin-left: -35%;
+    margin-right: 20%;
+  }
+  .container-{
+    margin-right: -11%;
+  }
+  .normal{
+    font-size: 0.3em;
+  }
+  .col-4 h6{
+    font-size: 0.45em;
+    margin-top: 5%;
+    margin-bottom: -8%;
+  }
+  .red{
+    font-size: 0.3em;
+    margin-left: -1%;
+  }  
 }
 @media screen and (max-width: 370px){
   .temi{
@@ -395,43 +537,80 @@ small {
     font-size: 0.4em;
     margin-top: -15%;
   }
-.col-4 h3{
+  .col-4 h3{
   font-size: 0.26cm;
   margin-left: -20%;
   margin-right: -70%;
   margin-top: 100%;
-}
-.col-4 img{
+  }
+  .col-4 img{
   height: 7%;
   width: 12%;
   margin-top:33% ;
-}
-.col-4 h4{
+  }
+  .col-4 h4{
   font-size:0.22cm;
   margin-top:-22%;
-}
-.col-4 p{
+  }
+  .col-4 p{
   font-size: 0.3em;
   margin-top: -30%;
   margin-right: -10%;
-}
-.bordr{
+  }
+  .bordr{
   font-size: 0.5em;
   margin-left: -17%;
-}
-.col-6 img{
-  height: 130px;
+  }
+  .col-6 img{
+  height: 125px;
   width: 140px;
-}
-.col-6 small{
+  }
+  .col-6 small{
   font-size: 0.25em;
-}
-.col-6 h2{
+  }
+  .col-6 h2{
   font-size: 0.65em;
   margin-top: -1.9em;
-}
-.col-6 p{
+  }
+  .col-6 p{
   font-size: 0.4em;
   margin-top: -2.8em;
-}
-}
+  }
+  .col-6 h4{
+  font-size: 0.3cm;
+  margin-left: -13%;
+  }
+  .layout{
+  height: 50px;
+  width: 140%;
+  margin-left: -20%;
+  }
+  .tolu{
+    font-size: 0.5em;
+  }
+  .blog{
+  font-size: 0.5em;
+  }
+  .news{
+  font-size: 0.4cm;
+  }
+  .card{
+  margin-left: -50%;
+  margin-right: 10%;
+  }
+  .container-{
+  margin-right: -12%;
+  }
+  .normal{
+  font-size: 0.27em;
+  }
+  .col-4 h6{
+  font-size: 0.45em;
+  margin-top: 5%;
+  margin-bottom: -10%;
+  }
+  .red{
+  font-size: 0.27em;
+  margin-left: -2%;
+  }
+} */
