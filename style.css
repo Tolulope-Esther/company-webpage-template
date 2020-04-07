@@ -141,19 +141,24 @@ small {
 /*Responsive styles*/
 
 @media screen and (max-width: 1200px){
-
+.temi{
+  font-size: 0.3cm;
+}
 .agency{
   font-size:0.8cm;
-  height: 75%;
-  margin-bottom: -15%;
+  
+  margin-bottom: -65%;
+}
+.agenc{
+  width: 80%;
 }
 .size{
   margin-top: 5%;
-  font-size: 1.4em;
+  font-size: 0.8em;
 }
 .get{
   font-size: 0.9em;
-  margin-top: -3%;
+  margin-top: -1%;
 }
 .col-4 h3{
   font-size: 0.65cm;
@@ -181,7 +186,7 @@ small {
 }
 .col-6 img{
   height: 200px;
-  width: 70%;
+  width: 110%;
 }
 .col-6 small{
   font-size: 0.65em;
@@ -233,22 +238,35 @@ small {
   font-size: 0.55em;
   margin-top: 2%;
 }
+.subem{
+width: 44% ;
+}
+.mes{
+  width: 90%;
+}
+}
+@media screen and (max-width: 1000px){
+  .agency{
+    margin-bottom: -80%;
+  }
 }
 
-
-/* @media screen and (max-width: 815px){
+@media screen and (max-width: 815px){
   .temi{
-    font-size: 0.2cm;
+    font-size: 0.6em;
+  }
+  .temi img{
+    width: 8%;
   }
 
 .agency{
-  font-size: 0.6cm;
-  height: 60%;
-  margin-bottom: 0%;
+  font-size: 0.7cm;
+  margin-bottom:-6cm;
 }
 .size{
-  margin-top:-20%;
+  margin-bottom:8%;
   font-size: 0.7em;
+  color: #464444;
 }
 .get{
   font-size: 0.8em;
@@ -256,7 +274,7 @@ small {
 }
 .col-4 h3{
   font-size: 0.55cm;
-  margin-left: -20%;
+  margin-left: -30%;
   margin-right: -70%;
   margin-top: 45%;
 }
@@ -270,7 +288,7 @@ small {
   margin-top:-6%;
 }
 .col-4 p{
-  font-size: 0.5em;
+  font-size: 0.6em;
   margin-top: -12%;
   margin-right: 15%;
 }
@@ -280,15 +298,16 @@ small {
 }
 .col-6 img{
   height: 130px;
-  width: 150%;
+  width: 110%;
+  margin-left: -13%;
 }
 .col-6 h2{
   font-size: 0.65em;
   margin-top: -1.9em;
 }
 .col-6 p{
-  font-size: 0.4em;
-  margin-top: -2.4em;
+  font-size: 0.55em;
+  margin-top: -2.0em;
 }
 .col-6 h4{
   font-size: 0.4cm;
@@ -309,8 +328,8 @@ small {
   font-size: 0.6cm;
 }
 .card{
-  margin-left: -5%;
-  margin-right: 3%;
+  margin-left: 8%;
+  margin-right: -5%;
 }
 .container-{
   margin-right: 0%;
@@ -327,15 +346,15 @@ small {
   font-size: 0.27em;
 }
 }
-
-
-@media screen and (max-width: 600px){
+ @media screen and (max-width: 600px){
   .temi{
-    font-size: 0.2cm;
+    font-size: 0.17cm;
   }
-
+  .temi img{
+    width: 8%;
+  }
   .agency{
-    margin-bottom: -22%;
+    margin-bottom:-115%;
   }
   .size{
     font-size: 0.6em;
@@ -343,7 +362,7 @@ small {
     margin-right: -15%;
   }
   .get{
-    font-size: 0.7em;
+    font-size: 0.6em;
     margin-top: -7%;
   }
   .col-4 h3{
@@ -371,7 +390,7 @@ small {
     margin-left: -17%;
   }
   .col-6 img{
-    height: 160px;
+    height: 150px;
     width: 110%;
   }
   .col-6 small{
@@ -424,20 +443,30 @@ small {
     font-size: 0.35em;
     margin-left: -1%;
 }
-
-@media screen and (max-width: 550px){
+.contact{
+  font-size: 0.6em;
+}
+.in{
+  font-size: 1.2em;
+}
+.bord{
+  font-size: 0.7em;
+}
+@media screen and (max-width: 530px){
   .temi{
   font-size: 0.13cm;
   }
+  .temi img{
+    height: 20px;
+  }
   .agency{
     font-size: 0.4cm;
-    height: 70%;
-    margin-bottom: -28%;
-  }
-  .size{
+    margin-bottom: -250px;
+     }
+  .size {
     font-size: 0.7em;
     margin-top: 0%;
-  }  
+  }
   .get{
     font-size: 0.6em;
     margin-top: -11%;
@@ -467,8 +496,11 @@ small {
     margin-left: -17%;
   }
   .col-6 img{
-    height: 100%;
+    height: 110px;
     width: 100%;
+  }
+  .agenc{
+    height: 120px;
   }
   .col-6 h2{
     font-size: 0.7em;
@@ -476,7 +508,7 @@ small {
   }
   .col-6 p{
     font-size: 0.4em;
-    margin-top: -10%;
+    margin-top: -9%;
   }
   .col-6 h4{
     font-size: 0.35cm;
@@ -497,14 +529,15 @@ small {
     font-size: 0.45cm;
   }
   .card{
-    margin-left: -35%;
-    margin-right: 20%;
+    margin-left: -15%;
+    margin-right: -14%;
   }
   .container-{
-    margin-right: -11%;
+    margin-right: 0%;
   }
   .normal{
-    font-size: 0.3em;
+    font-size: 0.27em;
+    margin-right: -14%;
   }
   .col-4 h6{
     font-size: 0.45em;
@@ -513,8 +546,7 @@ small {
   }
   .red{
     font-size: 0.3em;
-    margin-left: -1%;
-  }  
+  }
 }
 @media screen and (max-width: 370px){
   .temi{
@@ -522,12 +554,15 @@ small {
     
   }
   .temi img{
-    width: 6%;
+    width: 7%
+  }
+  .agenc{
+    height: 90px;
   }
   .agency{
-    font-size: 0.25cm;
-    height:65%;
-    margin-bottom: -43%;
+    font-size: 0.3cm;
+    height:0%;
+    margin-bottom: 42px;
   }
   .size{
     font-size: 0.4em;
@@ -535,7 +570,7 @@ small {
   }
   .get{
     font-size: 0.4em;
-    margin-top: -15%;
+    margin-top: -12px;
   }
   .col-4 h3{
   font-size: 0.26cm;
@@ -562,8 +597,8 @@ small {
   margin-left: -17%;
   }
   .col-6 img{
-  height: 125px;
-  width: 140px;
+  height: 130px;
+  width: 170px;
   }
   .col-6 small{
   font-size: 0.25em;
@@ -595,11 +630,8 @@ small {
   font-size: 0.4cm;
   }
   .card{
-  margin-left: -50%;
-  margin-right: 10%;
-  }
-  .container-{
-  margin-right: -12%;
+  margin-left: -30%;
+  margin-right: -10%;
   }
   .normal{
   font-size: 0.27em;
@@ -613,4 +645,10 @@ small {
   font-size: 0.27em;
   margin-left: -2%;
   }
-} */
+  .container- h3{
+font-size: 1.1em;
+  }
+  .container- small{
+    font-size: 0.5em;
+  }
+}
