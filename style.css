@@ -554,7 +554,7 @@ width: 44% ;
     
   }
   .temi img{
-    width: 7%
+    width: 8%
   }
   .agenc{
     height: 90px;
@@ -617,7 +617,7 @@ width: 44% ;
   }
   .layout{
   height: 50px;
-  width: 140%;
+  width: 135%;
   margin-left: -20%;
   }
   .tolu{
@@ -651,4 +651,3 @@ font-size: 1.1em;
   .container- small{
     font-size: 0.5em;
   }
-}
